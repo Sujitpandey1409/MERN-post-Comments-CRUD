@@ -1,0 +1,14 @@
+.App{
+  display: flex;
+}
+.posts{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+@media only screen and (max-width:650px) {
+  .App{
+  flex-direction: column-reverse;
+  align-items: center;
+}
+}
