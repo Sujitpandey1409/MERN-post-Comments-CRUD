@@ -3,7 +3,7 @@ import Post from './components/posts'
 import './App.css';
 import { useState } from 'react'
 import axios from 'axios';
-const BASE_URL = 'http://localhost:4000/'
+const BASE_URL = 'https://sujit-postandcomment.onrender.com/'
 
 function App() {
   const [posts, setposts] = useState([])

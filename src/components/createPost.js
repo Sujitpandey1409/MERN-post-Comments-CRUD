@@ -5,7 +5,7 @@ const PostCreationTemplate = (props) => {
     const [posts, setposts] = useState([])
     const url = useRef()
     const caption = useRef()
-    const BASE_URL = 'http://localhost:4000/'
+    const BASE_URL = 'https://sujit-postandcomment.onrender.com/'
     const handleSubmit = async (e) => {
         e.preventDefault()
         let urlVal = url.current.value

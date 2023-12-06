@@ -10,7 +10,7 @@ const Post = (props) => {
     const cmtBtn = useRef()
     const loader1 = useRef()
     const loader2 = useRef()
-    const BASE_URL = 'http://localhost:4000/'
+    const BASE_URL = 'https://sujit-postandcomment.onrender.com/'
     const handleInputClick = (e) => {
         e.preventDefault()
         setcmtBtnDisplay(true)
